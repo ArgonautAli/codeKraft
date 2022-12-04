@@ -1,0 +1,18 @@
+.navbarCon{
+    display: flex;
+    border: 1px solid red;
+   justify-content: flex-start
+
+   &--start{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid blue;
+   }
+    
+   &--end{
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
+
+   }
+}

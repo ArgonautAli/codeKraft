@@ -1,0 +1,15 @@
+.containerIntro {
+    height: '100vh';
+    min-height : '100vh';
+    display: flex;
+    align-content: center;
+    
+}
+
+.containerBox {
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    flex-direction: column;
+    color: azure;
+}
