@@ -1,0 +1,60 @@
+@media screen and (min-width: 1310px) {
+
+    .subBodyOverall {
+        margin-top: 12px;
+        padding-bottom: 36px;
+        border: 5px solid red;
+    }
+
+    .subBody {
+        height: '50vh';
+        min-height: '50vh';
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .containerSubBox {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    .flex-container {
+        display: flex;
+
+
+    }
+
+    .flex-container__text {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* font-style: normal; */
+        /* font-size: 2.5em; */
+
+    }
+
+    .subBoxCard-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+@media screen and (max-widht: 1310px) {
+    .containerBox {
+        display: grid;
+
+        justify-content: center;
+        flex-direction: column;
+        color: azure;
+    }
+
+    .flex-container__text {
+        color: black;
+    }
+}

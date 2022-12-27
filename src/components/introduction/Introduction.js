@@ -35,14 +35,14 @@ function Introduction() {
               </div>
 
               <div className="icon-strip " style={{ color: "black" }}>
-                <div>
+                <div className="hover">
                   <VideoIcon />
                 </div>
-                <div className="">
+                <div className="hover">
                   <CodeIcon />
                 </div>
 
-                <div>
+                <div className="hover">
                   {" "}
                   <ListIcon />
                 </div>

@@ -45,7 +45,7 @@
         background-image: url("../../assets/images/abstract-intro.png");
         min-height: auto;
         min-width: auto;
-        height: 100vh;
+        height: 76vh;
         width: 100vw;
         max-width: 700px;
         max-height: 92vh;
@@ -55,6 +55,23 @@
         display: flex;
         justify-content: space-between;
         margin-top: 30px;
+    }
+
+    .hover {
+        --c: linear-gradient(#000 0 0);
+        /* update the color here */
+
+        padding-bottom: .15em;
+        background: var(--c), var(--c);
+        background-size: .3em .1em;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        transition: .3s linear, background-size .3s .2s linear;
+    }
+
+    .hover:hover {
+        background-size: 40% .1em;
+        background-position: 10% 100%, 90% 100%;
     }
 }
 
