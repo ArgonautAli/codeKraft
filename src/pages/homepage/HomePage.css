@@ -3,5 +3,6 @@
     /* height: 100vh; */
     position: relative;
     /* height: 1000px; */
+    overflow-x: hidden;
 
 }

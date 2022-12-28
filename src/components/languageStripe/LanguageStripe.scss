@@ -1,15 +1,15 @@
 .lang-container {
   display: flex;
   justify-content: space-evenly;
-  background: rgb(114, 66, 232);
-  background: linear-gradient(
-    90deg,
-    rgba(114, 66, 232, 1) 0%,
-    rgba(151, 148, 246, 1) 35%,
-    rgba(251, 106, 114, 1) 100%
-  );
+  background: #2719ae;
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(114, 66, 232, 1) 0%,
+  //   rgba(151, 148, 246, 1) 35%,
+  //   rgba(251, 106, 114, 1) 100%
+  // );
   width: 100%;
-  padding: 25px;
+  padding: 35px;
 }
 
 .wrap-image {

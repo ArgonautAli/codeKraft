@@ -1,15 +1,17 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
 #root {
-    height: 100vh;
-    /* background: #121212; */
-    max-height: 100vh
-  }
+  height: 100vh;
+  /* background: #121212; */
+  max-height: 100vh;
+  max-width: 100vw
+}
 
-.App{
+.App {
   height: 100vh;
   /* background: #121212; */
   max-height: 100vh

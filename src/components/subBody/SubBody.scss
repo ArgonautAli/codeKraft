@@ -1,0 +1,186 @@
+@media only screen and (min-width: 1310px) {
+  .subBodyOverall {
+    // margin-top: 12px;
+    padding-bottom: 36px;
+    // border: 5px solid red;
+  }
+
+  .subBody {
+    height: "50vh";
+    min-height: "50vh";
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .containerSubBox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container__text {
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    /* font-style: normal; */
+    /* font-size: 2.5em; */
+  }
+
+  .subBoxCard-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  $hoverBgColor: #2719ae;
+  $hoverBgColor2: #9794f6;
+  $bgColor: #94d6fb;
+
+  /* Mixins */
+  @mixin createBox($width, $height, $bRadius, $bgColor, $margin) {
+    width: $width;
+    height: $height;
+    border-radius: $bRadius;
+    background-color: $bgColor;
+    margin: $margin;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .cardcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    // height: 97vh;
+
+    .box {
+      @include createBox(250px, 250px, 10px, white, 20px);
+      position: relative;
+      box-shadow: 0px 0px 15px #94d6fb;
+
+      .boxContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+
+        .icon {
+          color: #2719ae;
+          font-size: 48px;
+          padding: 15px;
+        }
+
+        .title {
+          font-size: 24px;
+          color: #2719ae;
+          font-weight: bold;
+          padding: 10px;
+        }
+
+        .desc {
+          color: #2719ae;
+          font-size: 15px;
+          height: 20%;
+        }
+      }
+
+      /* Link */
+      a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      &:hover {
+        background: linear-gradient(
+          130deg,
+          $hoverBgColor 0%,
+          $hoverBgColor2 100%
+        );
+        box-shadow: none;
+
+        .icon,
+        .title,
+        .desc {
+          color: white;
+          transition: 0.3s all ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  .subBodyOverall {
+    // margin-top: 12px;
+    padding-bottom: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    // border: 5px solid red;
+  }
+
+  .subBody {
+    height: "50vh";
+    min-height: "50vh";
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .containerSubBox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container__text {
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    /* font-style: normal; */
+    /* font-size: 2.5em; */
+  }
+
+  .subBoxCard-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .boxContent {
+    // border: 1px solid red;
+    box-shadow: 0px 0px 15px #94d6fb;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  // $hoverBgColor: #2719ae;
+  // $hoverBgColor2: #9794f6;
+
+  // /* Mixins */
+  // @mixin createBox($width, $height, $bRadius, $bgColor, $margin) {
+  //   width: $width;
+  //   height: $height;
+  //   border-radius: $bRadius;
+  //   background-color: $bgColor;
+  //   margin: $margin;
+  //   transition: 0.3s all ease-in-out;
+  // }
+}

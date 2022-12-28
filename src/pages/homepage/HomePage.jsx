@@ -3,6 +3,7 @@ import NavbarMain from "../../components/navbar/Navbar";
 import Introduction from "../../components/introduction/Introduction";
 import LanguageStripe from "../../components/languageStripe/LanguageStripe";
 import SubBody from "../../components/subBody/SubBody";
+import Footer from "../../components/footer/Footer";
 import "./HomePage.css";
 
 function HomePage() {
@@ -13,6 +14,7 @@ function HomePage() {
         <Introduction />
         <LanguageStripe />
         <SubBody />
+        <Footer />
       </div>
     </>
   );
