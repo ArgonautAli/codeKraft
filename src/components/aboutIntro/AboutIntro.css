@@ -1,0 +1,83 @@
+@media only screen and (min-width: 1310px) {
+
+    .containerAboutboxIntro {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+    .aboutIntroUpper {
+        display: flex;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        vertical-align: middle;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .aboutIntroText {
+        word-wrap: break-word;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+
+    }
+
+    .followSpace {
+        display: flex;
+    }
+
+    .followBtn {
+
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+
+    .containerAboutboxIntro {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+    .aboutIntroUpper {
+        display: flex;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        vertical-align: middle;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .aboutIntroText {
+        word-wrap: break-word;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+
+    }
+
+    .followSpace {
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+
+    .followBtn {
+        margin-left: 10px;
+        height: fit-content;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 8px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
