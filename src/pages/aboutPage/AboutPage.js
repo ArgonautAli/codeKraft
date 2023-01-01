@@ -2,6 +2,7 @@ import NavbarMain from "../../components/navbar/Navbar";
 import "../homepage/HomePage.css";
 import AboutIntro from "../../components/aboutIntro/AboutIntro";
 import AboutFAQ from "../../components/aboutFAQ/AboutFAQ";
+import Footer from "../../components/footer/Footer";
 
 function AboutPage() {
   return (
@@ -12,6 +13,7 @@ function AboutPage() {
         <AboutIntro />
         <hr />
         <AboutFAQ />
+        <Footer />
       </div>
     </>
   );

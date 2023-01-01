@@ -14,15 +14,23 @@ function NavbarMain() {
       <Container>
         <div style={{ display: "flex" }}>
           <img
+            className="mt-1"
             src={webLogo}
+            onClick={() => navigate("/")}
             style={{
               display: "flex",
               height: "32px",
               width: "32px",
+              cursor: "pointer",
             }}
           />{" "}
           &nbsp;
-          <Navbar.Brand onClick={() => navigate("/")}>CodeKraft</Navbar.Brand>
+          <Navbar.Brand
+            style={{ cursor: "pointer" }}
+            onClick={() => navigate("/")}
+          >
+            CodeKraft
+          </Navbar.Brand>
         </div>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav px-4" />

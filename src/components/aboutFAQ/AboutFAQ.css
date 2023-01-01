@@ -15,8 +15,8 @@
         padding-right: 20vw;
         vertical-align: middle;
         align-items: center;
-        font-weight: normal;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     }
 
     .aboutIntroText {
@@ -42,6 +42,18 @@
 
     .lighterFont {
         font-weight: 100;
+    }
+
+    .sponsor {
+        margin-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: rgb(232, 232, 232);
+        font-weight: 400;
+        /* color: #fff; */
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 10px;
     }
 }
 
@@ -85,5 +97,19 @@
         border-radius: 8px;
         font-weight: 500;
         color: #fff;
+    }
+
+    .sponsor {
+        margin-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: rgb(232, 232, 232);
+        font-weight: 400;
+        /* color: #fff; */
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 10px;
+        width: fit-content;
+        overflow-wrap: break-word;
     }
 }
